@@ -1,0 +1,111 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#main {
+	background: white;
+	width: 600px;	
+	float: left;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 30px 0 -30px 0;
+}
+h2 {
+	font-size: 30px;
+	margin: 5px 0 5px 25px;
+}
+img {
+	margin: 0px 25px 0px 25px;
+}
+.Prathana {
+	margin: 15px 25px 15px 25px;
+}
+hr {
+	margin: 0px 25px 10px 25px;
+}
+.gray {
+	color: gray;
+	margin: 0 25px 70px 25px;
+}
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+04=SIDEBAR
+-------------------------------------------------------------------------------------------------------------------------------------*/
+#sidebar {
+	background: white;
+	width: 390px;
+	float: right;
+	padding: 25px;
+	border-color: gray;
+    border-left: 4px solid #5d6da947;
+    border-bottom: 4px solid #5d6da947;
+}
+
+#sidebar h4 {
+	font-size: 20px;
+}
+
+#sidebar p, h4, ul {
+	margin: 0 25px 25px 25px;
+}
+#sidebar img {
+    border-radius: 78px;
+}
+#sidebar blockquote{
+font-style: italic;
+margin-left: 32px;
+font-family: Georgia, "Times New Roman", serif;
+border-color: gray;
+border-left: 4px solid rgb(155, 162, 182);
+}
+/*----------------------------------------------------------------------------
+05=FOOTER
+---------------------------------------------------------------------------------*/
+#footer {
+	width: 1000px;
+	float: left;
+}
+.orange {
+	color: orange;
+}
